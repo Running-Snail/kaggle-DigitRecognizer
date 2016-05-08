@@ -1,27 +1,27 @@
 # kaggle DigitRecognizer
 ## TODO
 1. read train data √
- *. use panda lib √
+ * use panda lib √
 2. signle image visualization √
- *. use matplot lib √
+ * use matplot lib √
 3. handle data √
- *. vectorize label √
+ * vectorize label √
 4. simple bp nerual network 
- *. sigmoid function √
-  *. sigmoid gradient √
- *. feedforward √
- *. cost function √
-  *. regularized √
- *. back propagation
-  *. random start √
-  *. Set the input layer’s values (a(1)) to the t-th training example x(t) √
-  *. err3 √
-  *. err2
-  *. Accumulate the gradient
-  *. Obtain the (unregularized) gradient
- *. gradient checking
- *. regularized back propagation
- *. learning parameters
+ * sigmoid function √
+  * sigmoid gradient √
+ * feedforward √
+ * cost function √
+  * regularized √
+ * back propagation
+  * random start √
+  * Set the input layer’s values (a(1)) to the t-th training example x(t) √
+  * err3 √
+  * err2
+  * Accumulate the gradient
+  * Obtain the (unregularized) gradient
+ * gradient checking
+ * regularized back propagation
+ * learning parameters
 5. evaluate algorithm
 6. cnn rnn or dnn
 
