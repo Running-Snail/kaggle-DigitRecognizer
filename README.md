@@ -36,9 +36,10 @@ theta2 is 1001x10
 ### forward
 
 ```
-z1 = x*theta1
-a1 = sigmoid(z1)
-z2 = a1*theta2
-y = a2 = sigmoid(z2)
-label = max index of y
+a1 = extend_1(x)
+z2 = np.dot(a1, self.theta1)
+a2 = extend_1(sigmoid(z2))
+z3 = np.dot(a2, self.theta2)
+a3 = sigmoid(z3)
+label = max index of a3
 ```
